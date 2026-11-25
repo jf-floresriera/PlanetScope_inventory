@@ -1,0 +1,135 @@
+{
+ "type": "FeatureCollection",
+ "name": "sitios_estudio",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "PPAC",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.9301,
+     41.4432
+    ]
+   },
+   "properties": {
+    "site_id": "PPAC",
+    "name": "Pinney Purdue Agricultural Center",
+    "county": "Porter",
+    "state": "Indiana",
+    "country": "USA",
+    "latitude": 41.4432,
+    "longitude": -86.9301,
+    "altitude_m_asl": 225,
+    "level": "site",
+    "plot_geometry_available": false,
+    "source": "Tabla 1 del proyecto de tesis (Flores-Riera_JE_ProyectoTesis, seccion 7.3)",
+    "crs_assumed": "EPSG:4326"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RICE",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.8028,
+     41.3269
+    ]
+   },
+   "properties": {
+    "site_id": "RICE",
+    "name": "Purdue Mary S. Rice Farm",
+    "county": "LaPorte",
+    "state": "Indiana",
+    "country": "USA",
+    "latitude": 41.3269,
+    "longitude": -86.8028,
+    "altitude_m_asl": 204,
+    "level": "site",
+    "plot_geometry_available": false,
+    "source": "Tabla 1 del proyecto de tesis (Flores-Riera_JE_ProyectoTesis, seccion 7.3)",
+    "crs_assumed": "EPSG:4326"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "SEPAC",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -85.5291,
+     39.0357
+    ]
+   },
+   "properties": {
+    "site_id": "SEPAC",
+    "name": "Southeast Purdue Agricultural Center",
+    "county": "Jennings",
+    "state": "Indiana",
+    "country": "USA",
+    "latitude": 39.0357,
+    "longitude": -85.5291,
+    "altitude_m_asl": 244,
+    "level": "site",
+    "plot_geometry_available": false,
+    "source": "Tabla 1 del proyecto de tesis (Flores-Riera_JE_ProyectoTesis, seccion 7.3)",
+    "crs_assumed": "EPSG:4326"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "SWPAC",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.4845,
+     38.7372
+    ]
+   },
+   "properties": {
+    "site_id": "SWPAC",
+    "name": "Southwest Purdue Agricultural Center",
+    "county": "Knox",
+    "state": "Indiana",
+    "country": "USA",
+    "latitude": 38.7372,
+    "longitude": -87.4845,
+    "altitude_m_asl": 154,
+    "level": "site",
+    "plot_geometry_available": false,
+    "source": "Tabla 1 del proyecto de tesis (Flores-Riera_JE_ProyectoTesis, seccion 7.3)",
+    "crs_assumed": "EPSG:4326"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ARIARI",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.782597,
+     3.650321
+    ]
+   },
+   "properties": {
+    "site_id": "ARIARI",
+    "name": "Río Ariari – El Castillo",
+    "county": "El Castillo",
+    "state": "Meta",
+    "country": "Colombia",
+    "latitude": 3.650321,
+    "longitude": -73.782597,
+    "level": "site",
+    "plot_geometry_available": false,
+    "crs_assumed": "EPSG:4326"
+   }
+  }
+ ]
+}

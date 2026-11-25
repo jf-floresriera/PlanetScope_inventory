@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" width="960" height="230" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <style>
+    .caja{fill:#ffffff;stroke:#2a78d6;stroke-width:2;rx:14}
+    .num{fill:#2a78d6;font-weight:700;font-size:13px}
+    .tit{fill:#0b0b0b;font-weight:700;font-size:14px}
+    .sub{fill:#52514e;font-size:11px}
+    .linea{stroke:#c9c7c0;stroke-width:3;stroke-dasharray:6 6;animation:flujo 1.2s linear infinite}
+    .punto{fill:#1baf7a}
+    .pulso{animation:pulso 4.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .p1{animation-delay:0s}.p2{animation-delay:.8s}.p3{animation-delay:1.6s}.p4{animation-delay:2.4s}.p5{animation-delay:3.2s}.p6{animation-delay:4s}
+    @keyframes flujo{to{stroke-dashoffset:-24}}
+    @keyframes pulso{0%,100%{transform:scale(1)}12%{transform:scale(1.07)}24%{transform:scale(1)}}
+  </style>
+  <rect width="960" height="230" rx="18" fill="#f3f2ee"/>
+  <text x="480" y="30" text-anchor="middle" class="tit" font-size="16">Flujo de trabajo PlanetScope · de la búsqueda al análisis</text>
+  <line x1="150" y1="125" x2="810" y2="125" class="linea"/>
+  <circle r="6" class="punto"><animateMotion dur="6s" repeatCount="indefinite" path="M150,125 L810,125"/></circle>
+  <circle r="6" class="punto" opacity=".6"><animateMotion dur="6s" begin="2s" repeatCount="indefinite" path="M150,125 L810,125"/></circle>
+  <circle r="6" class="punto" opacity=".35"><animateMotion dur="6s" begin="4s" repeatCount="indefinite" path="M150,125 L810,125"/></circle>
+  <g class="pulso p1"><rect x="20" y="70" width="130" height="110" class="caja"/><text x="85" y="95" text-anchor="middle" class="num">1</text><text x="85" y="118" text-anchor="middle" class="tit">Inventario</text><text x="85" y="138" text-anchor="middle" class="sub">Data API · por etapa</text><text x="85" y="154" text-anchor="middle" class="sub">0 km²</text></g>
+  <g class="pulso p2"><rect x="178" y="70" width="130" height="110" class="caja"/><text x="243" y="95" text-anchor="middle" class="num">2</text><text x="243" y="118" text-anchor="middle" class="tit">Revisión</text><text x="243" y="138" text-anchor="middle" class="sub">scene tiles · nubes</text><text x="243" y="154" text-anchor="middle" class="sub">sobre el sitio</text></g>
+  <g class="pulso p3"><rect x="336" y="70" width="130" height="110" class="caja" style="stroke:#eb6834"/><text x="401" y="95" text-anchor="middle" class="num" style="fill:#eb6834">3</text><text x="401" y="118" text-anchor="middle" class="tit">Pedido</text><text x="401" y="138" text-anchor="middle" class="sub">gestor · 1 vez/mes</text><text x="401" y="154" text-anchor="middle" class="sub">100 km²/escena</text></g>
+  <g class="pulso p4"><rect x="494" y="70" width="130" height="110" class="caja"/><text x="559" y="95" text-anchor="middle" class="num">4</text><text x="559" y="118" text-anchor="middle" class="tit">Descarga</text><text x="559" y="138" text-anchor="middle" class="sub">SR 8 bandas + UDM2</text><text x="559" y="154" text-anchor="middle" class="sub">gratis · a Drive</text></g>
+  <g class="pulso p5"><rect x="652" y="70" width="130" height="110" class="caja"/><text x="717" y="95" text-anchor="middle" class="num">5</text><text x="717" y="118" text-anchor="middle" class="tit">Procesamiento</text><text x="717" y="138" text-anchor="middle" class="sub">composiciones</text><text x="717" y="154" text-anchor="middle" class="sub">NDVI · NDRE · PSRI</text></g>
+  <g class="pulso p6"><rect x="810" y="70" width="130" height="110" class="caja" style="stroke:#1baf7a"/><text x="875" y="95" text-anchor="middle" class="num" style="fill:#1baf7a">6</text><text x="875" y="118" text-anchor="middle" class="tit">Análisis</text><text x="875" y="138" text-anchor="middle" class="sub">series por etapa</text><text x="875" y="154" text-anchor="middle" class="sub">mancha de asfalto</text></g>
+  <text x="480" y="212" text-anchor="middle" class="sub">Las imágenes viven en Google Drive (privado) · el código y la documentación en GitHub</text>
+</svg>

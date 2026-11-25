@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="960" height="260" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <style>.t{fill:#0b0b0b;font-weight:700;font-size:15px}.e{fill:#0b0b0b;font-size:11px}.m{fill:#52514e;font-size:10px}.r{fill:#0b0b0b;font-size:12px;font-weight:700}</style>
+  <rect width="960" height="260" rx="18" fill="#f3f2ee"/>
+  <text x="30" y="32" class="t">Calendario del cultivo usado para el inventario (una imagen ideal por etapa)</text>
+  <text x="30" y="72" class="r">Indiana · maíz</text>
+  <g transform="translate(160,58)">
+    <rect x="0" width="140" height="28" fill="#d9c8a9"/><text x="70" y="18" text-anchor="middle" class="e">Siembra</text>
+    <rect x="140" width="74" height="28" fill="#e8f3c6"/><text x="177" y="18" text-anchor="middle" class="e">Establec.</text>
+    <rect x="214" width="98" height="28" fill="#b9e09a"/><text x="263" y="18" text-anchor="middle" class="e">Vegetativo</text>
+    <rect x="312" width="142" height="28" fill="#ffd27f"/><text x="383" y="18" text-anchor="middle" class="e">Reproductivo ★</text>
+    <rect x="454" width="57" height="28" fill="#f2b38a"/><text x="482" y="18" text-anchor="middle" class="e">Madurez</text>
+    <rect x="511" width="87" height="28" fill="#d6b4d9"/><text x="554" y="18" text-anchor="middle" class="e">Cosecha</text>
+    <text x="0" y="44" class="m">1 abr</text><text x="598" y="44" class="m" text-anchor="end">31 oct</text>
+    <g><circle cy="-9" r="7" fill="#2a78d6" stroke="#fff" stroke-width="3"><animate attributeName="cx" values="0;598;598" keyTimes="0;0.85;1" dur="7s" repeatCount="indefinite"/></circle></g>
+  </g>
+  <text x="30" y="142" class="r">Ariari · sem. A</text>
+  <g transform="translate(160,128)">
+    <rect x="0" width="170" height="28" fill="#d9c8a9"/><text x="85" y="18" text-anchor="middle" class="e">Siembra</text>
+    <rect x="170" width="86" height="28" fill="#e8f3c6"/><text x="213" y="18" text-anchor="middle" class="e">Establec.</text>
+    <rect x="256" width="84" height="28" fill="#b9e09a"/><text x="298" y="18" text-anchor="middle" class="e">Vegetativo</text>
+    <rect x="340" width="86" height="28" fill="#ffd27f"/><text x="383" y="18" text-anchor="middle" class="e">Reproductivo</text>
+    <rect x="426" width="127" height="28" fill="#d6b4d9"/><text x="490" y="18" text-anchor="middle" class="e">Cosecha</text>
+    <text x="0" y="44" class="m">1 mar</text><text x="553" y="44" class="m" text-anchor="end">15 sep</text>
+    <circle cy="-9" r="7" fill="#e87ba4" stroke="#fff" stroke-width="3"><animate attributeName="cx" values="0;553;553" keyTimes="0;0.85;1" dur="7s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="30" y="212" class="r">Ariari · sem. B</text>
+  <g transform="translate(160,198)">
+    <rect x="0" width="103" height="28" fill="#d9c8a9"/><text x="51" y="18" text-anchor="middle" class="e">Siembra</text>
+    <rect x="103" width="85" height="28" fill="#e8f3c6"/><text x="145" y="18" text-anchor="middle" class="e">Establec.</text>
+    <rect x="188" width="85" height="28" fill="#b9e09a"/><text x="230" y="18" text-anchor="middle" class="e">Vegetativo</text>
+    <rect x="273" width="85" height="28" fill="#ffd27f"/><text x="315" y="18" text-anchor="middle" class="e">Reproductivo</text>
+    <rect x="358" width="117" height="28" fill="#d6b4d9"/><text x="416" y="18" text-anchor="middle" class="e">Cosecha</text>
+    <text x="0" y="44" class="m">15 ago</text><text x="475" y="44" class="m" text-anchor="end">31 ene</text>
+    <circle cy="-9" r="7" fill="#e87ba4" stroke="#fff" stroke-width="3"><animate attributeName="cx" values="0;475;475" keyTimes="0;0.85;1" dur="7s" begin="1s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

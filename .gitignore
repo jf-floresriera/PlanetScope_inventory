@@ -1,0 +1,27 @@
+# ── Seguridad: nunca subir claves ni credenciales ──
+.env
+*api_key*
+*credencial*
+*secret*
+
+# ── Datos de Planet: SOLO en Google Drive (licencia E&R: no se comparten públicamente) ──
+*.tif
+*.tiff
+*.part
+*.zip
+imagenes_recortadas/
+09_Planet_Tiles/
+composiciones/
+respuestas_api/
+pedidos_planet.json
+control_cuota.json
+INVENTARIO_PLANET*.csv
+INVENTARIO_PLANET*.xlsx
+CONTROL_DESCARGAS_PLANET*
+CATALOGO_IMAGENES_PLANET*
+QA_VISUAL_ESCENAS*
+*_INDICES.tif
+
+# ── Python / Colab ──
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,7 @@
+﻿Característica,Valor
+GSD (píxel real en tierra),"≈ 3,7–4,1 m según la altura del satélite (columna p_gsd)"
+Píxel del producto ortorectificado,3 m (columna p_pixel_resolution)
+Radiometría,"12 bits, entregado en 16 bits; reflectancia de superficie (SR) × 10 000"
+Tamaño de escena,"≈ 25 × 11,5 km (SuperDove ≈ 32,5 × 19,6 km)"
+Revisita,Casi diaria
+Máscara de calidad,"UDM2: clear, snow, shadow, light haze, heavy haze, cloud, confidence, unusable"

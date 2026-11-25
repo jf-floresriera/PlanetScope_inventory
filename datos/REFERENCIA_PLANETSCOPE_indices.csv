@@ -1,0 +1,18 @@
+﻿Índice,Fórmula (bandas PlanetScope),4 bandas,8 bandas (SuperDove),Utilidad
+NDVI,(NIR − Rojo) / (NIR + Rojo),True,True,Vigor y biomasa; se satura con dosel cerrado
+GNDVI,(NIR − Verde) / (NIR + Verde),True,True,Clorofila; se satura menos que el NDVI
+EVI,"2,5·(NIR − R) / (NIR + 6R − 7,5·Azul + 1)",True,True,Dosel denso (vegetativo y reproductivo)
+EVI2,"2,5·(NIR − R) / (NIR + 2,4R + 1)",True,True,"Como el EVI, sin la banda azul"
+SAVI,"1,5·(NIR − R) / (NIR + R + 0,5)",True,True,Siembra y establecimiento (suelo visible)
+MSAVI2,(2NIR+1 − √((2NIR+1)² − 8(NIR−R))) / 2,True,True,Cobertura temprana
+OSAVI,"(NIR − R) / (NIR + R + 0,16)",True,True,Vegetación con suelo de fondo
+NDWI,(Verde − NIR) / (Verde + NIR),True,True,"Agua y encharcamiento (arroz de riego, río Ariari)"
+VARI,(Verde − R) / (Verde + R − Azul),True,True,Fracción verde con bandas visibles
+CIgreen,NIR / Verde − 1,True,True,Clorofila del dosel
+NDRE,(NIR − RedEdge) / (NIR + RedEdge),False,True,⭐ Clorofila y N; estrés temprano (mancha de asfalto)
+CIrededge,NIR / RedEdge − 1,False,True,⭐ Clorofila sin saturar en dosel denso
+MTCI*,(NIR − RedEdge) / (RedEdge − R),False,True,"Clorofila (aprox., una sola banda Red Edge)"
+CCCI,NDRE / NDVI,False,True,Separa clorofila de biomasa
+PSRI*,(R − Azul) / RedEdge,False,True,⭐ Senescencia y pérdida de clorofila (avance de lesiones)
+PRI*,(Verde I − Verde) / (Verde I + Verde),False,True,Estrés fotosintético (bandas anchas: con cautela)
+NDMI / NBR / LST,requieren SWIR o térmico,False,False,"❌ No posible: usa Sentinel-2, Landsat o EnMAP"
