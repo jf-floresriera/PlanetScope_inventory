@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si usas este flujo de trabajo, por favor cítalo así."
+title: "PlanetScope Inventory: inventario, descarga controlada y análisis de imágenes PlanetScope para la mancha de asfalto del maíz"
+type: software
+authors:
+  - family-names: "Flores Riera"
+    given-names: "Jesús Enrique"
+    affiliation: "Universidad Nacional de Colombia"
+    email: "jfloresr@unal.edu.co"
+repository-code: "https://github.com/jf-floresriera/PlanetScope_inventory"
+date-released: "2026-11-25"
+keywords:
+  - PlanetScope
+  - SuperDove
+  - teledetección
+  - mancha de asfalto
+  - tar spot
+  - maíz
+  - Purdue
+  - Meta
+references:
+  - type: software
+    title: "Planet Application Program Interface: In Space for Life on Earth"
+    authors:
+      - name: "Planet Team"
+    year: 2026
+    url: "https://api.planet.com"

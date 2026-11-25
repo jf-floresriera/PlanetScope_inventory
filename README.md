@@ -4,6 +4,10 @@
 </p>
 
 <p align="center">
+  <b>Autor: <a href="https://github.com/jf-floresriera">Jesús Enrique Flores Riera</a></b> · Universidad Nacional de Colombia
+</p>
+
+<p align="center">
   <a href="https://github.com/jf-floresriera/PlanetScope_inventory">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=2A78D6&center=true&vCenter=true&width=760&lines=Inventario+PlanetScope+por+etapa+del+cultivo+%F0%9F%8C%BD;8+bandas+SuperDove+%C2%B7+Red+Edge+%C2%B7+3+m+de+resoluci%C3%B3n+%F0%9F%9B%B0%EF%B8%8F;Descargas+con+control+de+cuota+mes+a+mes+%F0%9F%93%8A;NDVI+%C2%B7+NDRE+%C2%B7+PSRI+para+la+mancha+de+asfalto+%F0%9F%94%AC" alt="Typing SVG" />
   </a>
@@ -165,15 +169,46 @@ Cada carpeta tiene su propio `README.md`.
 
 ---
 
-## 📝 Cita obligatoria (programa E&R de Planet)
+## 👤 Autor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/jf-floresriera">
+        <img src="https://github.com/jf-floresriera.png" width="110" style="border-radius:50%" alt="Jesús Enrique Flores Riera"/><br/>
+        <b>Jesús Enrique Flores Riera</b>
+      </a><br/>
+      <sub>Universidad Nacional de Colombia</sub><br/>
+      <a href="mailto:jfloresr@unal.edu.co"><img src="https://img.shields.io/badge/jfloresr@unal.edu.co-0d366b?style=flat-square&logo=gmail&logoColor=white"/></a>
+      <a href="https://github.com/jf-floresriera"><img src="https://img.shields.io/badge/GitHub-jf--floresriera-181717?style=flat-square&logo=github"/></a>
+    </td>
+    <td>
+      Tesis sobre la <b>mancha de asfalto del maíz</b> (<i>Phyllachora maydis</i>) con sensores remotos:<br/>
+      PlanetScope · Sentinel-2 · Landsat · EMIT · EnMAP · GEDI.<br/><br/>
+      Diseño del flujo metodológico, inventario, control de cuota y análisis.
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📝 Cómo citar
+
+**Este repositorio** (también en [`CITATION.cff`](CITATION.cff) → botón *Cite this repository* de GitHub):
+
+```
+Flores Riera, J. E. (2026). PlanetScope Inventory: inventario, descarga controlada y análisis de imágenes
+PlanetScope para la mancha de asfalto del maíz. GitHub. https://github.com/jf-floresriera/PlanetScope_inventory
+```
+
+**Cita obligatoria de Planet** (programa Education & Research):
 
 ```
 Planet Team (2026). Planet Application Program Interface: In Space for Life on Earth. San Francisco, CA. https://api.planet.com
 ```
 
 <p align="center">
-  <b>Jesús Enrique Flores Riera</b> · Universidad Nacional de Colombia<br/>
-  <sub>Imágenes PlanetScope © Planet Labs PBC — uso académico no comercial (programa Education & Research).</sub>
+  <sub>© 2026 Jesús Enrique Flores Riera · Imágenes PlanetScope © Planet Labs PBC — uso académico no comercial (programa Education & Research).</sub>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1baf7a,50:2a78d6,100:0d366b&height=120&section=footer" width="100%"/>

@@ -26,3 +26,5 @@ El [`.gitignore`](../.gitignore) bloquea estos archivos por nombre y extensión.
 ```
 Planet Team (2026). Planet Application Program Interface: In Space for Life on Earth. San Francisco, CA. https://api.planet.com
 ```
+
+Autor del repositorio: **Jesús Enrique Flores Riera** · Universidad Nacional de Colombia · [@jf-floresriera](https://github.com/jf-floresriera) · cita en [`CITATION.cff`](../CITATION.cff)
